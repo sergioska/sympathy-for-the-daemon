@@ -11,6 +11,7 @@ class Daemon:
         self.sleepTime = 1
 
     def daemonize(self, worker):
+        """ daemonize an object (object needs implement a method named run) """
         try:
             # fork a process from parent processor so father can exit and return control to the shell
             pid = os.fork()
@@ -39,5 +40,6 @@ class Daemon:
         return(0)
 
     def setTime(self, nTime):
+        """ set time to sleep in the loop """
         self.sleepTime = nTime
 
