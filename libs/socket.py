@@ -1,5 +1,7 @@
 __author__ = 'sergioska'
 
+""" currently this class is not used!!! """
+
 import SocketServer
 
 class TCPHandler:
