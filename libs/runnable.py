@@ -9,6 +9,7 @@ class Runnable(object):
     
     @abc.abstractmethod
     def run(self):
+        """ this method is called in loop daemon """
         raise NotImplementedError( "Should have implemented this" )
 
 

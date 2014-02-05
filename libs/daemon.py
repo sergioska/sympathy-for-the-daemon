@@ -4,6 +4,7 @@ import os
 import time
 
 class Daemon:
+    """ build daemon """
 
     def __init__(self):
         self.WORKINGDIR = "/"
