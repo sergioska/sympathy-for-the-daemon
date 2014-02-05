@@ -1,7 +1,7 @@
 __author__ = 'sergioska'
 
 '''
-test script to daemonize a worker object
+simple test script that show to daemonize a worker object
 '''
 
 from libs.daemon import Daemon
