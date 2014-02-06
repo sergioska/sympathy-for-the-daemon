@@ -1,7 +1,7 @@
 sympathy-for-the-daemon
 =======================
 
-# Daemonize a worker object in python.
+### Daemonize a worker object in python.
 
 You can daemonize your object simply extending a worker object from Runnable class and implementing its run method.
 ```python
