@@ -34,7 +34,7 @@ class Worker(Runnable):
         """ ... """
         """ write OK as debug line on example.log file
             one for second (default daemon loop is set to 1 sec)
-            don't forget to kill the process!!!
+            don't forget to kill the process!!! """
         logging.info("OK")
         """ ... """
 ```
