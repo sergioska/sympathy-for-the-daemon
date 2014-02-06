@@ -20,7 +20,7 @@ if __name__ == "__main__":
     daemon.daemonize(worker)
 ```    
 
-Worker extends Runnable and implment its run method. For example:  
+now Worker class needs extend Runnable and implement its run method. For example:  
 ```python
 import logging
 from libs.runnable import Runnable
