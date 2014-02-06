@@ -27,16 +27,16 @@ class Worker(Runnable):
     def __init__(self):
         logging.basicConfig(filename='example.log',level=logging.DEBUG)
     
-    # ...
+    """ ... """
     
     def run(self):
         """ run method contains worker logic """
-        # ...
+        """ ... """
         """ write OK as debug line on example.log file
             one for second (default daemon loop is set to 1 sec)
             don't forget to kill the process!!!
         logging.info("OK")
-        # ...
+        """ ... """
 ```
 
 Main loop in Daemon class set an one second loop by default; you can change this loop time using setTime Daemon's method.
