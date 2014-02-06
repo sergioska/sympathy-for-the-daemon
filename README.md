@@ -3,7 +3,8 @@ sympathy-for-the-daemon
 
 ### Daemonize a worker object in python.
 
-You can daemonize your object simply extending a worker object from Runnable class and implementing its run method.
+**Sympathy for the daemon** library helps you to **daemonize** your process. 
+You can do this simply extending worker object of your process from Runnable class and implementing its run method.
 ```python
 """ import daemon lib """
 from libs.daemon import Daemon
